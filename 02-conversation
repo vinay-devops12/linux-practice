@@ -1,0 +1,20 @@
+#!/bin/bash
+#comment this 
+person1="nani yadav"
+person2="sudha software"
+
+
+echo " $person1 your friend $person2 going to school"
+echo "$person2 your going to school right now"
+echo "no iam going movie bahubali if you intrested you can join with me"
+echo "ok thank you  i have a work right now"
+echo "kk carry on $person1"
+echo "when will go to movie $person2"
+echo "$person1  iam going movie roght now with perents"
+echo "kk $person2 enjoy the movie"
+echo "$person1 you have complted dinner"
+echo "yes complited $person2 ll you will go  enjoy the movie"
+echo "kk bye $person1"
+ echo "i will meet with tou soon "
+ echo "bye $person2"
+
