@@ -1,7 +1,7 @@
 #!/bin/bash
 #comment this 
-person1="nani yadav"
-person2="sudha software"
+person1="king "
+person2="king maker"
 
 
 echo " $person1 your friend $person2 going to school"
