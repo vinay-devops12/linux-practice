@@ -16,3 +16,5 @@ echo "sum is :$sum"
 movies=("rrr" "varanasi" "pushpa" "kgd")
 
 echo "movie are :${movies[@]}"
+
+echo "first movie is :${movies[0]}"
