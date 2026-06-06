@@ -8,4 +8,6 @@ echo "which directory :$pwd"
 echo "PID of the current script:$$"
 sleep 5 &
 echo "PID of the background command running just now :$!"
+## script line no 
+echo" line number :$LINENO"
 
