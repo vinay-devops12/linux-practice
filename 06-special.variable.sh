@@ -12,4 +12,5 @@ echo "PID of the background command running just now :$!"
 echo "line number :$LINENO"
 echo "script excuted in :$SECONDS"
 echo "$?"
-
+ls abcd
+echo "$
