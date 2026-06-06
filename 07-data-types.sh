@@ -10,3 +10,7 @@ num2=linux
 
 sum=$((num1+num2))
 echo "sum is :sum$"
+#arrey 
+movies= ("rrr" "varanasi" " pushpa" "kgd")
+
+echo "movie are :${movies[@]}"
