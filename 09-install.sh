@@ -32,3 +32,13 @@ if [ $? -eq 0 ]; then
         fi      
 fi
 
+
+
+  echo "installing nginx "
+      dnf install nginx -y
+  if [ $? -ne 0 ]; then
+     echo "installing nginx is ..failed"
+     exit 1
+ else
+   echo  "installing nginx is ..success"
+fi
