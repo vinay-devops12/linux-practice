@@ -6,5 +6,6 @@ echo "script name :$0"
 echo "who is running this :$USER"
 echo "which directory :$pwd"
 echo "PID of the current script:$$"
+sleep 5 &
 echo "PID of the background command running just now :$!"
 
