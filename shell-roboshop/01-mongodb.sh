@@ -33,3 +33,12 @@ VALIDATE() {
 
 cp mango.repo /etc/yum.repos.d/mango.repo &>> $LOGS_FILE
 VALIDATE $? "Adding mongo repo"
+
+dnf install mongodb-org -y &>>$LOGS_FILE
+ VALIDATE $? "installing mangodb"
+
+ systemctl enable mongod &>>$LOGS_FILE
+ VALIDATE $? "enable mangodb" 
+
+ systemctl start mongod &>>$LOGS_FILE
+  VALIDATE $? "starting mangodb"
