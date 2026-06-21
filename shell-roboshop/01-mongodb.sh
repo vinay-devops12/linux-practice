@@ -30,8 +30,7 @@ VALIDATE() {
         echo -e "$TIMESTAMP [INFO] $G $2...SUCCESS $N" | tee -a $LOGS_FILE
     fi
 }
-
-cp mango.repo /etc/yum.repos.d/mango.repo &>> $LOGS_FILE
+cp $(dirname $0)/mango.repo /etc/yum.repos.d/mango.repo &>> $LOGS_FILE
 VALIDATE $? "Adding mongo repo"
 
 dnf install mongodb-org -y &>>$LOGS_FILE
