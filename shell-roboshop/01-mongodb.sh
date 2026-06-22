@@ -47,3 +47,5 @@ dnf install mongodb-org -y &>>$LOGS_FILE
 
   systemctl restart mongod  &>>$LOGS_FILE
   VALIDATE $? "Restarting mongodb"
+
+  
